@@ -1,0 +1,26 @@
+
+body { overflow: hidden; }
+
+div {
+	display:inline-block;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#diagnostics {
+	width:20%;
+	background-color:LemonChiffon;
+	float:left;
+	overflow: hidden;
+}
+
+#renderer {
+	width:80%;
+}
+
+#controls {
+	position:relative;
+	position:fixed;bottom:0;
+}
