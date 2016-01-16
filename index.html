@@ -29,15 +29,15 @@
 				</ul>
 			</div>
 		</div>
-		<div id="renderer" ng-controller="rendererController" ng-keypress="keyboard($event);" full-page-height>
-			<canvas id="canvas" tabindex="0"></canvas>
+		<div id="renderer" ng-controller="rendererController" ng-keypress="keyboard($event);" tabindex="0" full-page-height>
+			<canvas id="canvas"></canvas>
 		</div>
 
 		<script src="js/app.js"></script>
 		<script src="js/diagnostics-controller.js"></script>
 		<script src="js/renderer-controller.js"></script>
 		<script>
-		$("#canvas").focus();
+			$("#renderer").focus();
 		</script>
 	</body>
 </html>

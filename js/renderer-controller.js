@@ -309,9 +309,10 @@ angular.module('robotSimulator.renderer', [])
 	});
 
 	$scope.keyboard = function(event) {
+		console.log(event);
 		var translation = 0;
 		var rotation = 0;
-		switch(event.keyCode) {
+		switch(event.which) {
 			case 119: //forward
 				translation = translationUnit;
 			break;
